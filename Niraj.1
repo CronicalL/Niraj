@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Types of CSS Demonstration</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkblue;
+            text-decoration: underline;
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+
+        .external-demo {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Demonstration of All Types of CSS</h1>
+
+    <!-- Inline CSS -->
+    <p style="color: red; font-size: 20px;">
+        This is an example of Inline CSS.
+    </p>
+
+    <p>
+        This is styled using <b>Internal CSS</b> (defined in &lt;style&gt; tag).
+    </p>
+
+    <p class="external-demo">
+        This text will be styled using External CSS (from style.css file).
+    </p>
+</body>
+</html>
+external css named styele.css :
+/* External CSS */
+.external-demo {
+    background-color: lightyellow;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
