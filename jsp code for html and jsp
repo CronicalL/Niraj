@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+<body>
+    <h2>Enter Username and Password</h2>
+    <form action="display.jsp" method="post">
+        Username: <input type="text" name="uname"><br><br>
+        Password: <input type="password" name="pass"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display User Data</title>
+</head>
+<body>
+    <h2>Username and Password Entered:</h2>
+    <%
+        String uname = request.getParameter("uname");
+        String pass = request.getParameter("pass");
+    %>
+    <p><b>Username:</b> <%= uname %></p>
+    <p><b>Password:</b> <%= pass %></p>
+</body>
+</html>
