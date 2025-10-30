@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tags Demonstration</title>
+</head>
+<body>
+    <h1>Welcome to HTML Tag Demonstration</h1>
+
+    <p>This page shows the basic use of some common HTML tags.</p>
+
+    <!-- Image Tag -->
+    <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Sample Image" width="300">
+
+    <p>You can click the link below to visit another website:</p>
+
+    <!-- Anchor Tag -->
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+</body>
+</html>
