@@ -1,0 +1,16 @@
+function App() {
+	
+	function f(event) {
+		alert("you clicked on " + event.target.name);
+	}
+
+  return (
+    <div>
+      <button name = "red" onClick = {f} > RED </button> 
+	  <button name = "yellow" onClick = {f} > YELLOW </button> 
+		<button name = "blue" onClick = {f} > BLUE </button> 
+    </div>
+  );
+}
+
+export default App;
